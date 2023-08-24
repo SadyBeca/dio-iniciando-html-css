@@ -1,0 +1,117 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --fonte-roboto: 'Roboto', sans-serif;
+
+    --tamanho-48: 3rem;
+    --tamanho-32: 2rem;
+    --tamanho-24: 1.5rem;
+    --tamanho-16: 1rem;
+
+    --peso-700: 700;
+    --peso-500: 500;
+
+    --cor-verde-claro: #C8FFBE;
+    --cor-rosa: #F76279;
+    --cor-roxa: #623b5aff;
+    --cor-mindaro: #edffabff;
+    --cor-musgo:  #8e8358ff;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-rosa);
+}
+
+a {
+    text-decoration: none; 
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1%;
+}
+
+.foto__perfil{
+    height: 5em;
+}
+
+#titulo{
+    color: var(--cor-verde-claro);
+    font-size: var(--tamanho-48);
+    font-weight: var(--peso-700);
+
+}
+.section__posts{
+    background-color: var(--cor-musgo);
+    padding: 2%;
+    border: var(--cor-roxa) solid 2rem;
+    align-items: center;
+}
+
+.titulo__post{
+    color: var(--cor-verde-claro);
+    font-size: var(--tamanho-32);
+    font-weight: var(--peso-500);
+}
+
+#titulo__post__geral{
+    text-align: center;
+}
+
+.section__primeira__posts{
+    /* border: red solid 2px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cabecalho__post1{
+    /* border: red solid 2px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem__mar{
+    display: flex;
+    height: 10em;
+    border-radius: 16px;
+    margin: 2% 42%;
+}
+
+.artigo__paragrafo{
+    color: var(--cor-verde-claro);
+    font-size: var(--tamanho-24);    
+}
+
+.lista__rodape{    
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* border: red solid 2px; */
+}
+
+.lista__rodape__itens {
+    font-size: var(--tamanho-16);
+    color: var(--cor-rosa); 
+    width: 5rem;
+    padding: 1rem;
+    margin: 5%;
+    border-radius: 5px;
+    background-color: var(--cor-mindaro);
+
+}
+
+.lista__rodape__itens:hover{
+    font-size: var(--tamanho-16);
+    color: var(--cor-verde-claro); 
+    width: 5rem;
+    padding: 1.5rem;
+    margin: 5%;
+    border-radius: 5px;
+    background-color: var(--cor-musgo); 
+}

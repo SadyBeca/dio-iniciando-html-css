@@ -84,7 +84,14 @@ a {
 
 .artigo__paragrafo{
     color: var(--cor-verde-claro);
-    font-size: var(--tamanho-24);    
+    font-size: var(--tamanho-24); 
+    text-align: justify;   
+}
+
+.artigo__paragrafo::first-letter{
+    font-size: var(--tamanho-48);
+    font-weight: 700;
+    padding: 0 0 0 5% ;
 }
 
 .lista__rodape{    

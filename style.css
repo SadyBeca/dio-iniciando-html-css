@@ -30,9 +30,11 @@ a {
 
 .cabecalho{
     display: flex;
-    align-items: center;
     gap: 2rem;
     padding: 1%;
+    justify-content: center;
+    
+    
 }
 
 .foto__perfil{
@@ -50,12 +52,14 @@ a {
     padding: 2%;
     border: var(--cor-roxa) solid 2rem;
     align-items: center;
+    margin: 0 10%;
 }
 
 .titulo__post{
     color: var(--cor-verde-claro);
     font-size: var(--tamanho-32);
     font-weight: var(--peso-500);
+    padding: 1%;
 }
 
 #titulo__post__geral{
@@ -77,21 +81,23 @@ a {
 
 .imagem__mar{
     display: flex;
-    height: 10em;
     border-radius: 16px;
-    margin: 2% 42%;
+    /* margin: 2% 42%; */
+    width: 100%;
+    height: 15em;
 }
 
 .artigo__paragrafo{
     color: var(--cor-verde-claro);
     font-size: var(--tamanho-24); 
-    text-align: justify;   
+    text-align: justify;
+    padding: 1%;   
 }
 
 .artigo__paragrafo::first-letter{
     font-size: var(--tamanho-48);
     font-weight: 700;
-    padding: 0 0 0 5% ;
+    padding: 2% 0 0 5% ;
 }
 
 .lista__rodape{    
